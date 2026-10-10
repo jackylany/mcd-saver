@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>麦省心 · MCD Saver</title>
+  <style>
+    :root {
+      --bg: #0b3d2e;
+      --bg2: #125c45;
+      --gold: #ffc72c;
+      --cream: #f7f1e3;
+      --ink: #102418;
+      --accent: #e4002b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 1080px;
+      height: 1440px;
+      font-family: "DIN Alternate", "Avenir Next", "PingFang SC", sans-serif;
+      background:
+        radial-gradient(circle at 20% 15%, rgba(255,199,44,.25), transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(228,0,43,.18), transparent 35%),
+        linear-gradient(160deg, var(--bg), var(--bg2));
+      color: var(--cream);
+      padding: 72px 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .eyebrow {
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      font-size: 22px;
+      color: var(--gold);
+      opacity: .9;
+    }
+    h1 {
+      font-size: 120px;
+      line-height: 1;
+      margin-top: 28px;
+      font-weight: 800;
+      color: var(--gold);
+    }
+    .sub {
+      margin-top: 24px;
+      font-size: 36px;
+      line-height: 1.4;
+      max-width: 16em;
+    }
+    .card {
+      background: rgba(247,241,227,.95);
+      color: var(--ink);
+      border-radius: 28px;
+      padding: 48px 44px;
+      box-shadow: 0 24px 60px rgba(0,0,0,.28);
+    }
+    .card .label {
+      font-size: 22px;
+      letter-spacing: .12em;
+      color: #5a6b5e;
+      margin-bottom: 12px;
+    }
+    .card .price {
+      font-size: 72px;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1.1;
+    }
+    .card .was {
+      margin-top: 10px;
+      font-size: 28px;
+      color: #667566;
+      text-decoration: line-through;
+    }
+    .card .save {
+      margin-top: 18px;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-size: 24px;
+      opacity: .92;
+    }
+    .tag {
+      border: 2px solid rgba(255,199,44,.7);
+      color: var(--gold);
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 20px;
+      letter-spacing: .08em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">M-CODE 2026 · MCP Skill</div>
+    <h1>麦省心</h1>
+    <p class="sub">卡包有券，不代表这一单能用。<br/>把本店可用券算成实付价。</p>
+  </header>
+
+  <section class="card">
+    <div class="label">同店 · 薯条三重奏 · 券后实付</div>
+    <div class="price">¥19.90</div>
+    <div class="was">原价 ¥40.50</div>
+    <div class="save">已省 ¥20.60 · 另提醒积分过期</div>
+  </section>
+
+  <footer class="footer">
+    <div>
+      <div>mcd-saver</div>
+      <div style="margin-top:8px;opacity:.8">领券 → 本店券 → 算价 → 确认下单</div>
+    </div>
+    <div class="tag">基于麦当劳 MCP</div>
+  </footer>
+</body>
+</html>

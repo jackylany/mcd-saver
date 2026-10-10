@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.token
+.mcp-secrets*
+.idea/
+.vscode/
+.tools/
+scripts/publish_contest.sh
+scripts/scrub_and_force_push.sh
+.git-init-result.txt
+scripts/publish_contest.sh

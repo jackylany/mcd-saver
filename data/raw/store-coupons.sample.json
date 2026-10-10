@@ -1,0 +1,26 @@
+{
+  "_comment": "脱敏样例：结构对齐 query-store-coupons，券码已打码。金额单位在算价接口为分。",
+  "storeCode": "1400904",
+  "orderType": 1,
+  "beType": 1,
+  "data": [
+    {
+      "title": "薯条三重奏",
+      "couponId": "COUPON_ID_FRIES_TRIO",
+      "couponCode": "MCD***SAMPLE***01",
+      "tradeDateTime": "2026-10-09 00:00:00-2026-10-15 23:59:59",
+      "products": [
+        { "productCode": "9900010371", "productName": "薯条三重奏" }
+      ]
+    },
+    {
+      "title": "9.9元中杯冰美式",
+      "couponId": "COUPON_ID_AMERICANO",
+      "couponCode": "MCD***SAMPLE***02",
+      "tradeDateTime": "2026-10-10 00:00:00-2026-10-16 23:59:59",
+      "products": [
+        { "productCode": "507411", "productName": "麦咖啡™冰美式中杯" }
+      ]
+    }
+  ]
+}

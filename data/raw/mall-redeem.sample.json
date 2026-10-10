@@ -1,0 +1,61 @@
+{
+  "_comment": "脱敏样例：对齐 mall-points-products + mall-product-detail 的决策所需字段。",
+  "account": {
+    "availablePoint": 1715.8,
+    "currentMouthExpirePoint": 137.3
+  },
+  "products": [
+    {
+      "spuId": 17074,
+      "spuName": "6.9元香芋派/菠萝派任选",
+      "point": 50,
+      "shopId": 2,
+      "spuCategory": "1",
+      "status": 2,
+      "upTime": "2026-06-25 00:00:00",
+      "downTime": "2026-12-30 23:59:59",
+      "skuId": 17780,
+      "extTradePrice": "6.9",
+      "selling": "6.9元香芋派/菠萝派任选1份"
+    },
+    {
+      "spuId": 17073,
+      "spuName": "6.9元可乐麦炫酷",
+      "point": 50,
+      "shopId": 2,
+      "spuCategory": "1",
+      "status": 2,
+      "upTime": "2026-06-25 00:00:00",
+      "downTime": "2026-12-30 23:59:59",
+      "skuId": 17779,
+      "extTradePrice": "6.9",
+      "selling": "6.9元可乐麦炫酷1份"
+    },
+    {
+      "spuId": 17075,
+      "spuName": "3.9元圆筒冰淇淋",
+      "point": 100,
+      "shopId": 2,
+      "spuCategory": "1",
+      "status": 2,
+      "upTime": "2026-06-25 00:00:00",
+      "downTime": "2026-12-30 23:59:59",
+      "skuId": 17781,
+      "extTradePrice": "3.9",
+      "selling": "3.9元圆筒冰淇淋1份"
+    },
+    {
+      "spuId": 17081,
+      "spuName": "21.9元巨无霸可乐组合",
+      "point": 800,
+      "shopId": 2,
+      "spuCategory": "1",
+      "status": 2,
+      "upTime": "2026-06-25 00:00:00",
+      "downTime": "2026-12-30 23:59:59",
+      "skuId": 17790,
+      "extTradePrice": "21.9",
+      "selling": "21.9元巨无霸可乐组合"
+    }
+  ]
+}

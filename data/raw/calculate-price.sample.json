@@ -1,0 +1,73 @@
+{
+  "_comment": "脱敏样例：对齐 calculate-price 成功响应。price/originalPrice/discount 单位为分。",
+  "cases": [
+    {
+      "name": "薯条三重奏+本店券",
+      "request": {
+        "storeCode": "1400904",
+        "orderType": 1,
+        "beType": 1,
+        "items": [
+          {
+            "productCode": "9900010371",
+            "quantity": 1,
+            "couponId": "COUPON_ID_FRIES_TRIO",
+            "couponCode": "MCD***SAMPLE***01"
+          }
+        ]
+      },
+      "response": {
+        "productOriginalPrice": 4050,
+        "productPrice": 1990,
+        "originalPrice": 4050,
+        "discount": 2060,
+        "price": 1990,
+        "productList": [
+          {
+            "productCode": "9900010371",
+            "productName": "薯条三重奏",
+            "quantity": 1,
+            "originalSubtotal": 4050,
+            "subtotal": 1990
+          }
+        ],
+        "takeWayList": [
+          { "code": "eat-in", "title": "堂食", "subtitle": "店内用餐" },
+          { "code": "locker-in", "title": "外带", "subtitle": "店内取餐柜" }
+        ]
+      }
+    },
+    {
+      "name": "冰美式中杯+本店券",
+      "request": {
+        "storeCode": "1400904",
+        "orderType": 1,
+        "beType": 1,
+        "items": [
+          {
+            "productCode": "507411",
+            "quantity": 1,
+            "couponId": "COUPON_ID_AMERICANO",
+            "couponCode": "MCD***SAMPLE***02"
+          }
+        ]
+      },
+      "response": {
+        "productOriginalPrice": 1900,
+        "productPrice": 990,
+        "originalPrice": 1900,
+        "discount": 910,
+        "price": 990,
+        "productList": [
+          {
+            "productCode": "507411",
+            "productName": "麦咖啡™冰美式中杯",
+            "quantity": 1,
+            "originalSubtotal": 1900,
+            "subtotal": 990
+          }
+        ]
+      }
+    }
+  ]
+}

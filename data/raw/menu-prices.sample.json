@@ -1,0 +1,12 @@
+{
+  "_comment": "脱敏样例：部分菜单现价（元），用于离线券排序演示。",
+  "storeCode": "1400904",
+  "meals": {
+    "9900010371": { "name": "薯条三重奏", "currentPrice": 40.5, "originalPrice": 40.5 },
+    "507411": { "name": "麦咖啡™冰美式中杯", "currentPrice": 19.0, "originalPrice": 19.0 },
+    "9900016073": { "name": "龙焰鸡腿堡三件套", "currentPrice": 26.9, "originalPrice": 47.5 },
+    "9900005456": { "name": "麦辣鸡腿汉堡三件套", "currentPrice": 33.5, "originalPrice": 46.0 },
+    "9900013304": { "name": "人气经典随心配", "currentPrice": 14.9, "originalPrice": 14.9 },
+    "515837": { "name": "圆筒冰淇淋", "currentPrice": 5.0, "originalPrice": 5.0 }
+  }
+}

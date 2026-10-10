@@ -1,0 +1,10 @@
+{
+  "_comment": "脱敏样例：对齐 query-my-account。不含真实 accountId。",
+  "availablePoint": "1715.8",
+  "accumulativePoint": "10157.3",
+  "currentMouthExpirePoint": "137.3",
+  "expiredPoint": "1766.5",
+  "frozenPoint": "0",
+  "usedPoint": "6675",
+  "currency": "麦享会积分"
+}
